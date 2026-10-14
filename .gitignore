@@ -1,29 +1,6 @@
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-
-# Virtual environments
+data/
+processed.npz
 venv/
 .venv/
-env/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Environment variables and secrets
-.env
-.env.*
-
-# IDE
-.vscode/
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Dataset (avoid uploading large image files)
-data/
-
-# Temporary files
-*.log
+leaf-disease-detection/models/svm_model.pkl
+leaf-disease-detection/models/random_forest_model.pkl
